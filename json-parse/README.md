@@ -15,7 +15,7 @@
 
 ### 简介
 
-[JSON](JSON.org)是一种轻量级的数据交换格式。我们开发者对 JSON 再熟悉不过了。后台的接口返回的数据大都是 JSON 格式的。常见的编程语言对 JSON 都有着非常好的支持，比如在 javascript 中可以直接使用 [JSON.parse](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) 来解析 JSON 字符串，使用 [JSON.stringify](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)将一个 javaScript 值转换为 JSON 字符串。
+[JSON](http://JSON.org)是一种轻量级的数据交换格式。我们开发者对 JSON 再熟悉不过了。后台的接口返回的数据大都是 JSON 格式的。常见的编程语言对 JSON 都有着非常好的支持，比如在 javascript 中可以直接使用 [JSON.parse](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) 来解析 JSON 字符串，使用 [JSON.stringify](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)将一个 javaScript 值转换为 JSON 字符串。
 
 假设我们不使用第三方库或者内置的 API ，那么该如何解析 JSON 字符串或者对数据进行序列化呢？😅
 
