@@ -6,4 +6,4 @@
 
 ### 分享主题
 
-- 2018年03月02日: [使用 javascript 编写 JSON parser](http://git.jiuhuar.com/all/developer-knowledge-share/json-parse)
+- 2018年03月02日: [使用 javascript 编写 JSON parser](http://git.jiuhuar.com/all/developer-knowledge-share/tree/master/json-parse)
