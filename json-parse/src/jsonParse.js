@@ -109,10 +109,11 @@ class JsonParser {
     // 处理 e 或者 E 后面的部分
     // 注意 类似这样的是合法的 1234E01
     if (this.currentChar === 'e' || this.currentChar === 'E') {
-      str += this.currentChar
+      str += 'e'
       this.next()
       if (this.currentChar === '-' || this.currentChar === '+') {
         str += this.currentChar
+        this.next()
       }
       if (!this.isDigit(this.currentChar)) {
         throw new Error(`${str.substr(-1)}后面必须是数字`)
@@ -253,5 +254,6 @@ class JsonParser {
         this.skipWhite()
       }
     }
+    throw new Error('....)
   }
 }
